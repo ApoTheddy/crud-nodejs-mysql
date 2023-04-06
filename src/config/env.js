@@ -1,6 +1,7 @@
 require("dotenv").config();
 
-let EnvConfiguration = {
+// Configuracion del archivo .env de nuestro proyecto
+const EnvConfiguration = {
   MYSQL_ROOT_PASSWORD: process.env["MYSQL_ROOT_PASSWORD"],
   MYSQL_DATABASE: process.env["MYSQL_DATABASE"],
   DB_HOST: process.env["DB_HOST"],
