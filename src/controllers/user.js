@@ -3,7 +3,7 @@ const { connection } = require("../db/connection");
 let { request, response } = require("express");
 const schemaUser = require("../models/user-schema");
 
-// Clase que se utiliza para manejar los controladores de la ruta de user
+// Clase que se utiliza para manejar los controladores de la ruta de user(/src/controllers/user)
 class UserController {
   findAll(req = request, res = response) {
     let { limit = 10, offset = 0 } = req.query;
