@@ -5,9 +5,9 @@
 npm install
 ```
 
-1. Configurar y renomrbar el archivo __.env.template__ renombrar a __.env__
+2. Configurar y renombrar el archivo __.env.template__ renombrar a __.env__
 
-2. Levantar los servicios de docker
+3. Levantar los servicios de docker
 ```
 docker compose up
 ```
@@ -16,7 +16,7 @@ O
 docker compose up -d
 ```
 
-1. Ejecutar el comando de produccion
+4. Ejecutar el comando de produccion
 ```
 npm run start
 ```
