@@ -1,9 +1,9 @@
 const { connection } = require("../db/connection");
-const uuid = require("uuid");
 
 let { request, response } = require("express");
 const schemaUser = require("../models/user-schema");
 
+// Clase que se utiliza para manejar los controladores de la ruta de user
 class UserController {
   findAll(req = request, res = response) {
     let { limit = 10, offset = 0 } = req.query;
